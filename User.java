@@ -4,8 +4,8 @@ public User{
   String password;
   String date;
 
-  pubilc User(){
-    inventory
+  public User(){
+    inventory = new byte[1];
   }
 
   public User(byte[] currInventory, String user, String pass, String dat){
@@ -14,4 +14,6 @@ public User{
     password = pass;
     date = dat;
   }
+
+
 }
