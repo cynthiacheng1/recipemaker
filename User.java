@@ -1,6 +1,6 @@
-public User{
+public class User{
   byte[] inventory;
-  String usename;
+  String username;
   String password;
   String date;
 
@@ -14,6 +14,7 @@ public User{
     password = pass;
     date = dat;
   }
+  
 
 
 }
